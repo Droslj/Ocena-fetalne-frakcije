@@ -33,7 +33,7 @@ Predobdelava je obsegala sprotno preverjanje kakovosti po vsakem koraku, brisanj
 V začetno analizo je bilo zajetih 16 vzorcev ccfDNA. En vzorec ni preživel strogega filtriranja v začetnem delu cevovoda (zaradi neustrezne globine pokritosti ali tehničnih odstopanj), zato je bila končna kvantitativna analiza izpeljana na 15 vzorcih.
 Uporabil sem orodja FastQC-MultiQC in cutadapt
 
-[Končno poročilo kakovosti](https://droslj.github.io/Ocena-fetalne-frakcije-/MultiQC_final.html)
+[Končno poročilo kakovosti](https://droslj.github.io/Ocena-fetalne-frakcije/MultiQC_final.html)
 
 ## Izdelava Referenčnih datotek
 
