@@ -13,7 +13,7 @@ Združevanje in obdelava genomskih podatkov za posamezne indele (alela A in B), 
 
 Fetalna frakcija se za posamezni indel izračuna z upoštevanjem diploidne narave ploda (faktor 2) in razmerja med fetalnim alelom ter skupno pokritostjo
 
-FF = 2 x ac{\text{fetalni alel}}{\text{skupna pokritost}} \right) \times 100\,\%$$
+FF = 2 x (fetalni alel)/(skupna pokritost) 
 
 
 **Kriterij informativnosti**
@@ -33,7 +33,7 @@ Predobdelava je obsegala sprotno preverjanje kakovosti po vsakem koraku, brisanj
 V začetno analizo je bilo zajetih 16 vzorcev ccfDNA. En vzorec ni preživel strogega filtriranja v začetnem delu cevovoda (zaradi neustrezne globine pokritosti ali tehničnih odstopanj), zato je bila končna kvantitativna analiza izpeljana na 15 vzorcih.
 Uporabil sem orodja FastQC-MultiQC in cutadapt
 
-[Končno poročilo kakovosti(Vir/MultiQC_final.html)
+[Končno poročilo kakovosti(Viri/MultiQC_final.html)
 
 ## Izdelava Referenčnih datotek
 
@@ -49,13 +49,13 @@ To omogoča neposredno merjenje prisotnosti plodove DNK v materini plazmi prek r
 
 **Tabela 1: Nabor izbranih markerjev**
 
-[Markerji Alel A](Vir/allele_a.fasta)
+[Markerji Alel A](Viri/allele_a.fasta)
 
-[Markerji Alel A mutiran](Vir/allele_a_mutated.fasta)
+[Markerji Alel A mutiran](Viri/allele_a_mutated.fasta)
 
-[Markerji Alel B](Vir/allele_b.fasta)
+[Markerji Alel B](Viri/allele_b.fasta)
 
-[Markerji Alel B mutiran](Vir/allele_b_mutated.fasta)
+[Markerji Alel B mutiran](Viri/allele_b_mutated.fasta)
 
 ## Zaravnava (Alignment)
 
@@ -66,19 +66,19 @@ Zaravnava je obsegal mapiranje branj prostoležeče DNK (ccfDNA) na referenčne 
 
 Na dobljenih zaravnanih datotekah (.bam) sem opravil štetje globine pokritosti (read depth) in določanje števila branj za normalno (materino) in mutirano/fetalno verzijo na predhodno določenih mestih.
 
-
+<br>
 ## Štetje in obdelava vzorcev
+<br>
+Za vsak vzorec sta bila analizirana alela A in B, končna fetalna frakcija pa je bila izračunana kot povprečje tistih markerjev, ki so padli v informativni razpon med 1,5 % in 50 %.<br>
+Zanesljivost rezultatov je bila dodatno potrjena s štetjem veljavnih markerjev, kar omogoča razlikovanje med zanesljivimi vzorci (več markerjev) in tistimi z višjo statistično negotovostjo (npr. le 1 veljaven marker). <br>  
+<br><br>
 
-Za vsak vzorec sta bila analizirana alela A in B, končna fetalna frakcija pa je bila izračunana kot povprečje tistih markerjev, ki so padli v informativni razpon med 1,5 % in 50 %.
-Zanesljivost rezultatov je bila dodatno potrjena s štetjem veljavnih markerjev, kar omogoča razlikovanje med zanesljivimi vzorci (več markerjev) in tistimi z višjo statistično negotovostjo (npr. le 1 veljaven marker).   
+![Prikaz FF](Slike/Fetalne_frakcije.png)<br>
+<br>
+**Slika 2: Fetalna frakcija in število markerjev**<br>
 
-
-![Prikaz FF](Slike/Fetalne_frakcije.png)
-
-**Slika 2: Fetalna frakcija in število markerjev**
-
-
-**Reference**
-[1] Cell-free DNA sequencing using insertion/deletion polymorphisms, 
-    Project PRJNA387652 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA387652)
-[2] UCSC In-Silico PCR (https://genome.ucsc.edu/cgi-bin/hgPcr?hgsid=4224131935_t5LT9th8HArh20yQY4hvDEoUcgIp)
+<br>
+**Reference**<br>
+[1] Cell-free DNA sequencing using insertion/deletion polymorphisms, <br>
+    Project PRJNA387652 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA387652)<br>
+[2] UCSC In-Silico PCR (https://genome.ucsc.edu/cgi-bin/hgPcr?hgsid=4224131935_t5LT9th8HArh20yQY4hvDEoUcgIp)<br>
