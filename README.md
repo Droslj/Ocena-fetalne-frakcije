@@ -1,31 +1,35 @@
-# Ocena-fetalne-frakcije
+# Ocena-fetalne-frakcije<br>
 Ocena fetalne frakcije v prostoležeči DNA (cffDNA)
-
-**Povzetek**
+<br>
+**Povzetek**<br>
 Razvoj bioinformatskega cevovoda za oceno deleža fetalne frakcije (FF) z uporabo informativnih markerjev iz vzorcev prostoležeče DNK (ccfDNA) v materini plazmi ter ovrednotiti zanesljivost rezultatov za klinično ali raziskovalno poročilo. Pri delu sem uporabil podatke iz sledečega projekta [1].
-
-**Pristop**
+<br>
+**Pristop**<br>
 Združevanje in obdelava genomskih podatkov za posamezne indele (alela A in B), filtriranje podatkov glede na stroge biološke kriterije ter hkratna vizualizacija vrednosti in statistične zanesljivosti.
-
+<br>
 # Ozadje in biološko-metodološko ozadje
+<br>
 
 ## Metodologija izračuna
+<br>
 
-Fetalna frakcija se za posamezni indel izračuna z upoštevanjem diploidne narave ploda (faktor 2) in razmerja med fetalnim alelom ter skupno pokritostjo
+Fetalna frakcija se za posamezni indel izračuna z upoštevanjem diploidne narave ploda (faktor 2) in razmerja med fetalnim alelom ter skupno pokritostjo:
 
 FF = 2 x (fetalni alel)/(skupna pokritost) 
 
 ## Kriterij informativnosti
-
+<br>
 V analizi so bili kot veljavni (informativni) upoštevani le tisti markerji, katerih vrednost fetalne frakcije pade v biološko smiselen in zanesljiv razpon med 1,5 % in 50 %, s čimer se izločijo šumi in tehnične napake.
-
+<br>
 # Bioinformatski cevovod (Workflow))
-
-Celotni cevovod je prikazan na sliki 1.
-
+<br>
+Celotni cevovod je prikazan na sliki 1.<br>
+<br>
 ![Bioinformatski cevovod](Slike/Complete_flow.png)
+<br>
 
 **Slika 1: Celoten potek obdelave**
+<br>
 
 ## Priprava vhodnih vzorcev
 <br>
