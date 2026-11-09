@@ -91,6 +91,5 @@ Zanesljivost rezultatov je bila dodatno potrjena s štetjem veljavnih markerjev,
 <br>
 
 **Reference**<br>
-[1] Cell-free DNA sequencing using insertion/deletion polymorphisms, <br>
-    Project PRJNA387652 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA387652)<br>
+[1] Cell-free DNA sequencing using insertion/deletion polymorphisms, Project PRJNA387652 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA387652)<br>
 [2] UCSC In-Silico PCR (https://genome.ucsc.edu/cgi-bin/hgPcr?hgsid=4224131935_t5LT9th8HArh20yQY4hvDEoUcgIp)<br>
