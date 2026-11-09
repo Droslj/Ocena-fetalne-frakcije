@@ -39,6 +39,7 @@ Izbrane vhodne vzorce surovih branj sekvenciranja sem obdelal v skladu s priporo
 Predobdelava je obsegala sprotno preverjanje kakovosti po vsakem koraku, brisanje adapterjev, primerjev ter trimanje slabih baz z nizko kakovostjo. <br>
 V začetno analizo je bilo zajetih 16 vzorcev ccfDNA. En vzorec ni preživel strogega filtriranja v začetnem delu cevovoda (zaradi neustrezne globine pokritosti ali tehničnih odstopanj), zato je bila končna kvantitativna analiza izpeljana na 15 vzorcih.
 Uporabil sem orodja FastQC-MultiQC in cutadapt.<br>
+<br>
 
 [Končno poročilo kakovosti](https://droslj.github.io/Ocena-fetalne-frakcije/MultiQC_final.html)
 <br>
@@ -53,6 +54,7 @@ Z izborom informativnih markerjev je računalniška učinkovitost bolj optimalna
 Analiza je temeljila na specifičnih insercijah in delecijah (InDelih) ter markerjih (označenih z ID-ji, npr. rs16626, rs3047269 itd. ter oznakami MID). Izbrani indeli služijo kot informativna okna, kjer je mati homozigotna, plod pa je od očeta podedoval alternativni alel. 
 To omogoča neposredno merjenje prisotnosti plodove DNK v materini plazmi prek razmerja med branjem normalne in mutirane različice (z upoštevanjem diploidnega faktorja 2). Referenčne datoteke markerjev sem sestavil s pomočjo vhodnih tabel in orodja za kreiranje PCR markerjev [2]. 
 <br>
+
 ![Markerji](Slike/Izbrani_markerji.png)
 <br>
 
