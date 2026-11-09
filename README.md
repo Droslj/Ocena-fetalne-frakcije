@@ -26,6 +26,7 @@ V analizi so bili kot veljavni (informativni) upoštevani le tisti markerji, kat
 <br>
 Celotni cevovod je prikazan na sliki 1.<br>
 <br>
+
 ![Bioinformatski cevovod](Slike/Complete_flow.png)
 <br>
 
@@ -65,6 +66,7 @@ To omogoča neposredno merjenje prisotnosti plodove DNK v materini plazmi prek r
 <br>
 [Markerji Alel B mutiran](Viri/allele_b_mutated.fasta)
 <br>
+
 ## Zaravnava (Alignment)
 <br>
 Zaravnava je obsegala mapiranje branj prostoležeče DNK (ccfDNA) na referenčne fasta datoteke z uporabo visoko zmogljivega mapirnega orodja za kratka branja (BWA-MEM2). 
