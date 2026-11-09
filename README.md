@@ -8,7 +8,6 @@ Razvoj bioinformatskega cevovoda za oceno deleža fetalne frakcije (FF) z uporab
 Združevanje in obdelava genomskih podatkov za posamezne indele (alela A in B), filtriranje podatkov glede na stroge biološke kriterije ter hkratna vizualizacija vrednosti in statistične zanesljivosti.
 <br>
 # Ozadje in biološko-metodološko ozadje
-<br>
 
 ## Metodologija izračuna
 <br>
