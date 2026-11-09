@@ -60,12 +60,18 @@ To omogoča neposredno merjenje prisotnosti plodove DNK v materini plazmi prek r
 **Tabela 1: Nabor izbranih markerjev**<br>
 
 <br>
-[Markerji Alel A](Viri/allele_a.fasta)
+
+[Markerji Alel A](Viri/allele_a.fasta
+
 <br>
+
 [Markerji Alel A mutiran](Viri/allele_a_mutated.fasta)
+
 <br>
+
 [Markerji Alel B](Viri/allele_b.fasta)
 <br>
+
 [Markerji Alel B mutiran](Viri/allele_b_mutated.fasta)
 <br>
 
