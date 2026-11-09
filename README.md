@@ -21,6 +21,7 @@ FF = 2 x (fetalni alel)/(skupna pokritost)
 <br>
 V analizi so bili kot veljavni (informativni) upoštevani le tisti markerji, katerih vrednost fetalne frakcije pade v biološko smiselen in zanesljiv razpon med 1,5 % in 50 %, s čimer se izločijo šumi in tehnične napake.
 <br>
+
 # Bioinformatski cevovod (Workflow))
 <br>
 Celotni cevovod je prikazan na sliki 1.<br>
