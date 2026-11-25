@@ -2,9 +2,9 @@
 Ocena fetalne frakcije v prostoležeči DNA (cffDNA)
 <br>
 
-**Ključne besede**<br>
+**Ključne besede**<br> 
 Delež fetalne frakcije, prostocelična DNK, informativni markerji<br>
-<br>
+
 ---
 
 **Povzetek**<br>
