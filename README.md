@@ -1,12 +1,22 @@
 # Ocena-fetalne-frakcije<br>
 Ocena fetalne frakcije v prostoležeči DNA (cffDNA)
 <br>
+
+**Ključne besede**<br>
+Delež fetalne frakcije, prostocelična DNK, informativni markerji<br>
+<br>
+---
+
 **Povzetek**<br>
 Razvoj bioinformatskega cevovoda za oceno deleža fetalne frakcije (FF) z uporabo informativnih markerjev iz vzorcev prostoležeče DNK (ccfDNA) v materini plazmi ter ovrednotiti zanesljivost rezultatov za klinično ali raziskovalno poročilo. Pri delu sem uporabil podatke iz sledečega projekta [1].
 <br>
+
+---
+
 **Pristop**<br>
 Združevanje in obdelava genomskih podatkov za posamezne indele (alela A in B), filtriranje podatkov glede na stroge biološke kriterije ter hkratna vizualizacija vrednosti in statistične zanesljivosti.
-<br>
+<br
+  
 # Ozadje in biološko-metodološko ozadje
 
 ## Metodologija izračuna
